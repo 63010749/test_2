@@ -90,6 +90,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(918, 644);
             this.Controls.Add(this.option_menu);
+            this.MaximumSize = new System.Drawing.Size(940, 700);
+            this.MinimumSize = new System.Drawing.Size(940, 700);
             this.Name = "option_page";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "option_page";

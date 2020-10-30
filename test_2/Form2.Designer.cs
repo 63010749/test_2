@@ -112,6 +112,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtScore);
             this.Controls.Add(this.txtAmmo);
+            this.MaximumSize = new System.Drawing.Size(940, 700);
+            this.MinimumSize = new System.Drawing.Size(940, 700);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";

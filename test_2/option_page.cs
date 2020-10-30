@@ -15,6 +15,7 @@ namespace test_2
         public option_page()
         {
             InitializeComponent();
+           
         }
 
         private void trackBar1_Scroll(object sender, EventArgs e)
