@@ -50,5 +50,12 @@ namespace test_2
             option.Show();
             Visible = false;
         }
+
+        private void option_page_Load(object sender, EventArgs e)
+        {
+            MaximizeBox = false;
+            MinimizeBox = false;
+            ControlBox = false;
+        }
     }
 }

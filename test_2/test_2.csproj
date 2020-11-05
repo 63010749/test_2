@@ -65,6 +65,12 @@
     <Compile Include="option_page.Designer.cs">
       <DependentUpon>option_page.cs</DependentUpon>
     </Compile>
+    <Compile Include="over.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="over.Designer.cs">
+      <DependentUpon>over.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -75,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="option_page.resx">
       <DependentUpon>option_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="over.resx">
+      <DependentUpon>over.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -192,6 +201,36 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upscale-270919632014211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restart_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restart_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quit_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quit_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backtomenu_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backtomenu_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

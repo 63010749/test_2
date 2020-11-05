@@ -71,11 +71,6 @@ namespace test_2
 
             }
 
-            if (e.KeyCode == Keys.Enter && gameOver == true)
-            {
-
-                RestartGame();
-            }
 
         }
 
@@ -136,10 +131,13 @@ namespace test_2
                 wplayer.controls.stop();
                 player.Image = Properties.Resources.dead;
                 GameTimer.Stop();
+                over option = new over();
+                option.Show();
+                Visible = false;
             }
 
-            txtAmmo.Text = "Ammo: " + ammo;
-            txtScore.Text = "Kills: " + score;
+            txtAmmo.Text = " " + ammo;
+            txtScore.Text = " " + score;
 
 
             if (goLeft == true && player.Left > 0)
@@ -261,6 +259,13 @@ namespace test_2
                 shootBullet.MakeBullet1(this);
             }
 
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            MaximizeBox = false;
+            MinimizeBox = false;
+            ControlBox = false;
         }
 
         private void MakeZombies()
