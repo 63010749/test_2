@@ -52,12 +52,12 @@
             // 
             // menu
             // 
-            this.menu.BackgroundImage = global::test_2.Properties.Resources.menu;
+            this.menu.BackColor = System.Drawing.Color.Transparent;
             this.menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.menu.Controls.Add(this.btn_exit);
             this.menu.Controls.Add(this.btn_option);
             this.menu.Controls.Add(this.btn_start);
-            this.menu.Location = new System.Drawing.Point(234, 60);
+            this.menu.Location = new System.Drawing.Point(231, 57);
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(444, 550);
             this.menu.TabIndex = 0;
@@ -78,7 +78,7 @@
             // btn_option
             // 
             this.btn_option.Image = global::test_2.Properties.Resources.option_normal;
-            this.btn_option.Location = new System.Drawing.Point(131, 254);
+            this.btn_option.Location = new System.Drawing.Point(131, 256);
             this.btn_option.Name = "btn_option";
             this.btn_option.Size = new System.Drawing.Size(158, 76);
             this.btn_option.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -105,6 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::test_2.Properties.Resources.Untitled_1;
             this.ClientSize = new System.Drawing.Size(918, 644);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.menu);

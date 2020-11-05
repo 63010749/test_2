@@ -238,5 +238,8 @@
   <ItemGroup>
     <None Include="Resources\image5.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\56-563398_game-buttons-png-transparent-png.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

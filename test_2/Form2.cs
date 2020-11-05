@@ -32,6 +32,7 @@ namespace test_2
             wplayer.URL = (@"C:\Users\Tang\Desktop\program_fun\second_game\test_2\test_2\Resources\background_sound.wav");
             wplayer.controls.play();
             axWindowsMediaPlayer1.Hide();
+            lbl_value.Text = Properties.Settings.Default.h_score;
             RestartGame();
         }
 
@@ -142,6 +143,16 @@ namespace test_2
                 wplayer.controls.stop();
                 player.Image = Properties.Resources.dead;
                 GameTimer.Stop();
+                
+                int a = Int32.Parse(lbl_value.Text);
+                
+                if (score > a)
+                {
+                    lbl_value.Text = score.ToString();
+                    Properties.Settings.Default.h_score = lbl_value.Text;
+                    Properties.Settings.Default.Save();
+                }
+
                 over option = new over();
                 option.Show();
                 Visible = false;

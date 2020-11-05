@@ -63,6 +63,16 @@ namespace test_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _56_563398_game_buttons_png_transparent_png {
+            get {
+                object obj = ResourceManager.GetObject("56-563398_game-buttons-png-transparent-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ammo_Image {
             get {
                 object obj = ResourceManager.GetObject("ammo-Image", resourceCulture);

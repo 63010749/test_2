@@ -100,7 +100,7 @@
             this.MinimumSize = new System.Drawing.Size(940, 700);
             this.Name = "over";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "over";
+            this.Text = "OTAKU SHOOT";
             this.Load += new System.EventHandler(this.over_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
