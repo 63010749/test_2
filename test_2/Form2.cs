@@ -122,7 +122,18 @@ namespace test_2
             if (playerHealth > 1)
             {
                 healthBar.Value = playerHealth;
-
+                if(playerHealth > 1 && playerHealth < 30)
+                {
+                    pictureBox3.Image = Properties.Resources.image5;
+                }
+                if(playerHealth > 29 && playerHealth < 60)
+                {
+                    pictureBox3.Image = Properties.Resources.image4;
+                }
+                if(playerHealth > 59 && playerHealth < 101)
+                {
+                    pictureBox3.Image = Properties.Resources.image3;
+                }
             }
 
             else
